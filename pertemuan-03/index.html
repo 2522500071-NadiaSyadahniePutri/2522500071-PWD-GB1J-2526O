@@ -37,7 +37,20 @@
         </section>
         <section id="contact">
             <h2>Hubungi saya</h2>
-            <p>Anda dapat menghubungi saya</p>
+            <form action=""" method="get">
+
+                <label for="txtNama">Nama:</label>
+                <input type="text" id="txtNama" name=id="txtnama" placeholder="Masukkan nama lengkap" required autocomplete="name">
+                
+                <label for="txtEmail">Email:</label>
+                <input type="email" id="txtEmail" name="txtEmail" placeholder="Masukkan alamat email" required autocomplete="email">
+                
+                <label for="txtPesan">Pesan:</label>
+                <textarea id="txtPesan" name="txtPesan" rows="4" placeholder="Tulis pesan anda..." required></textarea>
+                
+                <button type="submit">Kirim</button>
+                <button type="reset">Batal</button>
+            </form>
         </section>
     </main>
     <footer>
