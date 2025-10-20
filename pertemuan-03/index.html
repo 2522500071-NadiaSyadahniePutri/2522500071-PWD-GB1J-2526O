@@ -1,200 +1,189 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Judul halaman</title>
-    <style>
-    #about{
-        background-color: #d2dbfc;
-        border-radius: 10px;
-        padding: 20px;
-        max-width: 700px;
-        margin:20px auto ;
-        box-shadow: 0 2px 5px rgba(0,0, 0, 0.1);
-    }
-    #about h2{
-        color:#1a1919;
-      border-bottom: 2px solid #0b0b0b;
-      padding-bottom: 6px;
-      margin-top: 6px;
-      margin-bottom: 16px;
-    }
-    #about p{
-        display: flex;
-        justify-content: flex-start;
-      align-items: baseline;
-      margin: 0;
-      padding: 6px 0;
-      border-bottom:  1px solid #050505;
-    }
-    #about strong{
-        min-width: 180px;
-        color: #141414;
-        font-weight: 600;
-        text-align: right;
-        padding-right: 16px;
-        flex-shrink: 0;
-    }
-    @media (max-width: 600px){
-        #about p{
-          flex-direction: column;
-           align-items: flex-start;
-        }
-        #about strong{
-            text-align: left;
-            padding-right: 0;
-            margin-bottom: 2px;
-        }
-    }
-    
+<<!DOCTYPE html>
+    <html lang="en">
 
-    </style>
-</head>
-<body>
-    <header>
-        <h1>Ini header</h1>
-        <nav>
-            <ul>
-                <li><a href="#home">Beranda</a></li>
-                <li><a href="#about">Tentang</a></li>
-                <li><a href="#contact">Kontak</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section id="home">
-            <h2>Selamat Datang</h2>
-            <p>Ini contoh paragraf html</p>
-        </section>
-        <section id="about">
-            <h2>Tentang saya</h2>
-            <p><strong>NIM:</strong> 2522500071 &#9786;</p>
-            <p><strong>Nama Lengkap:</strong> Nadia Syadahnie Putri &hearts;</p>
-            <p><strong>Tempat Lahir:</strong> Bangka Tengah &#10024;</p>
-            <p><strong>Tanggal Lahir:</strong> 20 Desember 2007 &diams;</p>
-            <p><strong>Hobby:</strong> Main game, Mendengarkan musik &#9834;</p>
-            <p><strong>Pasangan:</strong> Tidak ada &#9785;</p>
-            <p><strong>Pekerjaan:</strong> Belum Ada &#10052;</p>
-            <p><strong>Nama Orang Tua:</strong> Bapak Sarudin dan Ibu Yenti Erita</p>
-            <p><strong>Nama Kakak:</strong> Hafizh Muhammad Iqbal dan Muhammad torik</p>
-            <p><strong>Nama Adik:</strong> Moureno Erzian Isra</p> <br>
-      
-        </section>
-        <section id="contact">
-            <h2>Hubungi saya</h2>
-            <form action=""" method="get">
-
-                <label for="txtNama">Nama:</label>
-                <input type="text" id="txtNama" name=id="txtnama" placeholder="Masukkan nama lengkap" required autocomplete="name">
-                
-                <label for="txtEmail">Email:</label>
-                <input type="email" id="txtEmail" name="txtEmail" placeholder="Masukkan alamat email" required autocomplete="email">
-                
-                <label for="txtPesan">Pesan:</label>
-                <textarea id="txtPesan" name="txtPesan" rows="4" placeholder="Tulis pesan anda..." required></textarea>
-                
-                <button type="submit">Kirim</button>
-                <button type="reset">Batal</button>
-            </form>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; &#9786; 2025 Nadia Syadahnie Putri 2522500071</p>
-    </footer>
-</body>
-</html>
-
-<style>
-
-#contact form {
-   background-color: #d2dbfc;
-    border-radius: 10px;
-    padding: 20px;
-    max-width: 700px;
-    margin: 20px auto;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-
-    display: flex;
-    flex-direction: column;
-}
-#contact label {
-    margin-top: 10px;
-    margin-bottom: 5px;
-    font-weight: bold;
-}
-#contact input, #contact textarea {
-    padding: 10px;
-    font-size: 1em;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    margin-bottom: 15px;
-}
-#contact button {
-  padding: 10px;
-    font-size: 1em;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    margin-top: 10px;
-}
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Judul Halaman</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                background-color: #f2f2f2;
+                color: #333;
+            }
 
 
-#contact button[type="submit"] {
-    background-color: #4CAF50;
-    color: white;
-}
-#contact button[type="reset"] {
-    background-color: #f44336;
-    color: white;
-}
-#contact form {
-    display: flex;
-    flex-direction: column;
-    max-width: 400px;
+            #about,
+            #contact {
+                background-color: #b6c6fa;
+                border-radius: 10px;
+                padding: 20px;
+                max-width: 700px;
+                margin: 20px auto;
+                box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            }
 
+            #contact h2,
+            #about h2 {
+                color: #0e0d0d;
+                border-bottom: 2px solid #0f0f0f;
+                padding-bottom: 6px;
+                margin-top: 0;
+                margin-bottom: 16px;
+            }
 
-    background: url("sanrio-characters-sanrio-love.gif") no-repeat center center;
-    background-size: cover; 
-}
+            #contact label,
+            #about p {
+                display: flex;
+                justify-content: flex-start;
+                align-items: baseline;
+                margin: 0;
+                padding: 6px 0;
+                border-bottom: 1px solid #050505;
+            }
 
+            #contact label span,
+            #about strong {
+                min-width: 180px;
+                color: #121212;
+                font-weight: 600;
+                text-align: right;
+                padding-right: 16px;
+                flex-shrink: 0;
+            }
 
-#section form {
-    display: flex;
-    flex-direction: column;
-}
-#section form label {
-    margin-bottom: 5px;
-    font-weight: bold;
-}
-#section form input, #section form textarea {
-    margin-bottom: 15px;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
-#section form button {
-    padding: 10px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-#section form button[type="submit"] {
-    background-color: #28a745;
-    color: white;
-}
-#section form button[type="reset"] {
-    background-color: #dc3545;
-    color: white;
-}
-#section form button:hover {
-    opacity: 0.9;
-}
-#section form input:focus, #section form textarea:focus {
-    border-color: #80bdff;
-    outline: none;
-    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
-}
+            #contact {
+                background-image: url('sanrio-characters-sanrio-love.gif');
+                background-size: cover;
+                background-position: center;
+                border-radius: 10px;
+                padding: 20px;
+                max-width: 700px;
+                margin: 20px auto;
+                color: white;
+                position: relative;
+                box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            }
 
-    
-</style>
+            form input,
+            form textarea {
+                width: 100%;
+                padding: 10px;
+                margin-bottom: 15px;
+                border: 1px solid #ccc;
+                border-radius: 6px;
+                font-size: 14px;
+            }
+
+            form button[type="submit"] {
+                padding: 10px 20px;
+                margin-right: 10px;
+                background-color: #007BFF;
+                /* warna biru */
+                border: none;
+                color: white;
+                border-radius: 6px;
+                cursor: pointer;
+                font-size: 14px;
+            }
+
+            form button[type="reset"] {
+                padding: 10px 20px;
+                background-color: #dc3545;
+                /* warna merah */
+                border: none;
+                color: white;
+                border-radius: 6px;
+                cursor: pointer;
+                font-size: 14px;
+            }
+
+            form button:hover {
+                opacity: 0.9;
+                transform: scale(1.02);
+            }
+
+            footer {
+                background-color: #3f7bfa;
+                color: white;
+                text-align: center;
+                padding: 10px;
+                margin-top: 40px;
+            }
+
+            @media (max-width: 600px) {
+
+                #about p,
+                #contact label {
+                    flex-direction: column;
+                    align-items: flex-start;
+                }
+
+                #about strong,
+                #contact label span {
+                    text-align: left;
+                    padding-right: 0;
+                    margin-bottom: 5px;
+                }
+            }
+        </style>
+    </head>
+
+    <body>
+        <header>
+            <h1>Ini Header</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Beranda</a></li>
+                    <li><a href="#about">Tentang</a></li>
+                    <li><a href="#contact">Kontak</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="home">
+                <h2>Selamat Datang</h2>
+                <p>Ini contoh paragraf HTML.</p>
+            </section>
+            <section id="about">
+                <h2>Tentang Saya</h2>
+                <p><strong>NIM:</strong> 2522500071 &#9786;</p>
+                <p><strong>Nama Lengkap:</strong> Nadia Syadahnie Putri &hearts;</p>
+                <p><strong>Tempat Lahir:</strong> Bangka Tengah &#10024;</p>
+                <p><strong>Tanggal Lahir:</strong> 20 Desember 2007 &diams;</p>
+                <p><strong>Hobby:</strong> Main game, Mendengarkan musik &#9834;</p>
+                <p><strong>Pasangan:</strong> Tidak ada &#9785;</p>
+                <p><strong>Pekerjaan:</strong> Belum Ada &#10052;</p>
+                <p><strong>Nama Orang Tua:</strong> Bapak Sarudin dan Ibu Yenti Erita</p>
+                <p><strong>Nama Kakak:</strong> Hafizh Muhammad Iqbal dan Muhammad torik</p>
+                <p><strong>Nama Adik:</strong> Moureno Erzian Isra</p> <br>
+
+            </section>
+            <section id="contact">
+                <h2>Kontak Saya</h2>
+                <form action="" method="get">
+
+                    <label for="txtNama">Nama:</label>
+                    <input type="text" id="txtNama" name="txtNama" placeholder="Masukkan nama" required
+                        autocomplete="name">
+
+                    <label for="txtEmail"></label>
+                    <input type="email" id="txtEmail" name="txtEmail" placeholder="Masukkan email" required
+                        autocomplete="email">
+
+                    <label for="txtPesan">Pesan:</label>
+                    <textarea id="txtPesan" name="txtPesan" rows="4" placeholder="Tulis pesan anda..."
+                        required></textarea>
+
+                    <button type="submit">Kirim</button>
+                    <button type="reset">Batal</button>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; &#9786; 2025 Nadia Syadahnie Putri 2522500071</p>
+        </footer>
+    </body>
+
+    </html>
