@@ -15,4 +15,5 @@ Hari ini, Kamis 09 Oktober 2025, saya mempelajari:
     <li>section#contact groups selector<li>
     <li>section#contact groups selector h2<li>
     <li>section#contact styling label<li>
+    <li>section#contact styling label>span<li>
 </ol>
