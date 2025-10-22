@@ -67,19 +67,21 @@
                 padding: 20px;
                 max-width: 700px;
                 margin: 20px auto;
-                color: white;
+                color: rgb(1, 1, 1);
                 position: relative;
                 box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
             }
 
-            form input,
-            form textarea {
-                width: 100%;
-                padding: 10px;
-                margin-bottom: 15px;
+            #contact input,
+            #contact textarea {
+                flex: 1;
                 border: 1px solid #ccc;
                 border-radius: 6px;
-                font-size: 14px;
+                padding: 8px;
+                color: #000;
+                font-weight: normal;
+                margin: 0;
+                box-sizing: border-box;
             }
 
             @media (max-width: 600px) {
@@ -94,7 +96,7 @@
                 margin-right: 10px;
                 background-color: #007BFF;
                 border: none;
-                color: white;
+                color: rgb(0, 0, 0);
                 border-radius: 6px;
                 cursor: pointer;
                 font-size: 14px;
