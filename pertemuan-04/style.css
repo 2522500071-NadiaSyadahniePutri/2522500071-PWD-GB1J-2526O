@@ -11,7 +11,7 @@
         }
 
         header {
-            background-color: #b6c6fa;
+            background-color: #b6d1fa;
             color: #fff;
             padding: 20px;
             text-align: center;
@@ -34,7 +34,7 @@
             #home,
             #about,
             #contact {
-            background-color: #b6c6fa;
+            background-color: #b6d1fa;
             border-radius: 10px;
             padding: 20px;
             max-width: 700PX;
@@ -158,7 +158,7 @@
             }
 
             #contact button[type="submit"] {
-                background-color: #b9b6fa;
+                background-color: #b6d1fa;
                 color: rgb(0, 0, 0);
                 font-weight: 600;
             }
