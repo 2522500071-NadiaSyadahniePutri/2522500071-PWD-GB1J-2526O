@@ -63,7 +63,7 @@
         }
 
         header li a:hover {
-            background-color: #4b607d;
+            background-color: #a4c8fd;
             border-radius: 6px;
             transition: background-color 0.3s ease;
         }
@@ -72,11 +72,11 @@
             outline: 2px solid hsl(0, 0%, 100%);
             outline-offset: 2px;
             border-radius: 6px;
-            background-color: #4b607d;
+            background-color: #a4c8fd;
         }
 
         header li a.active {
-            background-color: #17294b;
+            background-color: #a4c8fd;
             transform: translateY(1px);
         }
         
