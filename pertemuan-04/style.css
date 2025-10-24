@@ -56,12 +56,30 @@
         }
 
         footer {
-            background: #222;
-            color: #aaa;
+            background: #b6d1fa;
+            color: #0a0a0a;
             text-align: center;
             padding: 10px;
         }
 
+        header li a:hover {
+            background-color: #4b607d;
+            border-radius: 6px;
+            transition: background-color 0.3s ease;
+        }
+
+        header li a:focus {
+            outline: 2px solid hsl(0, 0%, 100%);
+            outline-offset: 2px;
+            border-radius: 6px;
+            background-color: #4b607d;
+        }
+
+        header li a.active {
+            background-color: #17294b;
+            transform: translateY(1px);
+        }
+        
         #about p,
         #contact label {
             display: flex;
