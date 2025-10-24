@@ -31,6 +31,7 @@
             padding: 6px 12px;
         }
 
+            #home,
             #about,
             #contact {
             background-color: #b6c6fa;
@@ -40,14 +41,18 @@
             margin: 20px auto;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
         }
-
-        #about h2
-        #contact h2 {
+            #home h2,
+            #about h2,
+            #contact h2 {
             color: #0e0d0d;
             border-bottom: 2px solid #0f0f0f;
             padding-bottom: 6px;
             margin-top: 0;
             margin-bottom: 16px;
+        }
+
+        #home p {
+            text-align: justify;
         }
 
         #about p,
@@ -128,8 +133,8 @@
             }
 
             #contact button[type="submit"] {
-                background-color: #b6c6fa;
-                color: rgb(255, 255, 255);
+                background-color: #b9b6fa;
+                color: rgb(0, 0, 0);
                 font-weight: 600;
             }
 
