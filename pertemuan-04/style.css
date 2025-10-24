@@ -11,7 +11,7 @@
         }
 
         header {
-            background-color: #4a90e2;
+            background-color: #b6c6fa;
             color: #fff;
             padding: 20px;
             text-align: center;
@@ -30,7 +30,7 @@
             text-decoration: none;
             padding: 6px 12px;
         }
-        
+
             #about,
             #contact {
             background-color: #b6c6fa;
@@ -128,7 +128,7 @@
             }
 
             #contact button[type="submit"] {
-                background-color: #17294b;
+                background-color: #b6c6fa;
                 color: rgb(255, 255, 255);
                 font-weight: 600;
             }
@@ -140,7 +140,7 @@
             }
 
             #contact button[type="submit"]:hover {
-                background-color: #4b607d;
+                background-color: #e2e9ff;
                 transform: translateY(-1px);
                 box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
             }
