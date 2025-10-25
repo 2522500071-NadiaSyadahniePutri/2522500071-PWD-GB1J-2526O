@@ -6,4 +6,5 @@ Nama : Nadia Syadahnie Putri<br>
 Hari ini, 23 Oktober 2025, Saya mempelajari:
 <ol>
     <li>copy index.html dan style.css foler pertemuan-04<li>
+    <li>tombol hamburger<li>
 </ol>
