@@ -116,7 +116,15 @@
                 left: 16px;
                 top: 8px;
             }
-            
+
+            nav {
+                display: none;
+                flex-direction: column;
+                background: #0b2e61;
+                width: 100%;
+                padding: 5px 0;
+            }
+
             header {
                 padding: 16px;
                 position: sticky;
