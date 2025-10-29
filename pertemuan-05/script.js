@@ -100,7 +100,7 @@ window.addEventListener("resize", () => {
         if (target) alignErrorMessage(small, target);
 
 document.addEventListener("DOMContentLoaded", function () {
-    ...
+    
     function setupCharCountLayout() {
         const label = document.querySelector('label[for="txtPesan"]');
         if (!label) return;
@@ -181,8 +181,9 @@ document.addEventListener("DOMContentLoaded", function () {
     setupCharCountLayout();
     
     window.addEventListener('resize', applyResponsiveLayout);
-    ...
+
 });
+
     const homeSection = document.getElementById("home");
     const ucapan = document.createElement("p");
     ucapan.textContent = "Halo, selamat datang di halaman!";
@@ -194,4 +195,3 @@ document.addElementById("txtPesan").addEventListener("input", function () {
     document.getElementById("charCount").textContent = panjang + "/200 karakter";
 });
     });
-});
