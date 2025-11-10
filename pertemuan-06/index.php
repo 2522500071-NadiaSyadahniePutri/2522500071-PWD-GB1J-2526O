@@ -28,7 +28,7 @@
                 <p>Ini contoh paragraf HTML.</p>
                 <?php
                 echo "Halo Dunia! <br>";
-                echo "Nama: Nadia<br>":
+                echo "Nama: Nadia<br>";
                 ?>
             </section>
             <section id="about">
@@ -45,17 +45,18 @@
                 $nama_ortu = "Bapak Sarudin dan Ibu Yenti Erita";
                 $nama_kakak = "Hafizh Muhammad Iqbal dan Muhammad torik";
                 $nama_adik = "Moureno Erzian Isra";
-                 ?>
-                <p><strong>NIM:</strong> <?php echo $nim; ?></p>
-                <p><strong>Nama Lengkap:</strong> <?php echo $nama_lengkap; ?></p>
-                <p><strong>Tempat Lahir:</strong> <?php echo $tempat_lahir; ?></p>
-                <p><strong>Tanggal Lahir:</strong> <?php echo $tanggal_lahir; ?></p>
-                <p><strong>Hobby:</strong> <?php echo $hobby; ?></p>
-                <p><strong>Pasangan:</strong> <?php echo $pasangan; ?></p>
-                <p><strong>Pekerjaan:</strong> <?php echo $pekerjaan; ?></p>
-                <p><strong>Nama Orang Tua:</strong> <?php echo $nama_orang_tua; ?></p>
-                <p><strong>Nama Kakak:</strong> <?php echo $nama_kakak; ?></p>
-                <p><strong>Nama Adik:</strong> </p> <?php echo $nama_adik; ?><br>
+                ?>
+
+                <p><strong>NIM:</strong> <?php echo $nim; ?></p>
+                <p><strong>Nama Lengkap:</strong> <?php echo $nama_lengkap; ?></p>
+                <p><strong>Tempat Lahir:</strong> <?php echo $tempat_lahir; ?></p>
+                <p><strong>Tanggal Lahir:</strong> <?php echo $tanggal_lahir; ?></p>
+                <p><strong>Hobby:</strong> <?php echo $hobby; ?></p>
+                <p><strong>Pasangan:</strong> <?php echo $pasangan; ?></p>
+                <p><strong>Pekerjaan:</strong> <?php echo $pekerjaan; ?></p>
+                <p><strong>Nama Orang Tua:</strong> <?php echo $nama_orang_tua; ?></p>
+                <p><strong>Nama Kakak:</strong> <?php echo $nama_kakak; ?></p>
+                <p><strong>Nama Adik:</strong> </p> <?php echo $nama_adik; ?><br>
             </section>
             <section id="ipk">
     <?php
