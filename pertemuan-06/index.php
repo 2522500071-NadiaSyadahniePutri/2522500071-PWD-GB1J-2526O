@@ -18,6 +18,7 @@
                 <ul>
                     <li><a href="#home">Beranda</a></li>
                     <li><a href="#about">Tentang</a></li>
+                    <li><a href="ipk">Nilai</a></li>
                     <li><a href="#contact">Kontak</a></li>
                 </ul>
             </nav>
