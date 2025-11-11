@@ -37,13 +37,13 @@
                 <?php
 
                 $nim = "2522500071 &#9786";
-                $nama = "Nadia Syadahnie Putri &hearts;";
+                $nama_lengkap = "Nadia Syadahnie Putri &hearts;";
                 $tempat_lahir = "Bangka Tengah &#10024;";
                 $tanggal_lahir = "20 Desember 2007 &diams;";
-                $hobi = "Main game, Mendengarkan musik &#9834;";
+                $hobby = "Main game, Mendengarkan musik &#9834;";
                 $pasangan = "Tidak ada &#9785;";
                 $pekerjaan = "Belum Ada &#10052;";
-                $nama_ortu = "Bapak Sarudin dan Ibu Yenti Erita";
+                $nama_orang_tua = "Bapak Sarudin dan Ibu Yenti Erita";
                 $nama_kakak = "Hafizh Muhammad Iqbal dan Muhammad torik";
                 $nama_adik = "Moureno Erzian Isra";
                 ?>
