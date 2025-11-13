@@ -10,4 +10,5 @@ Hari ini, kamis 6 November 2025, Saya mempelajari:
 <li>buat file proses.php</li>
 <li>ambil nilai input dari form ke proses.php</li>
 <li>menyimpan nilai dari input ke variabel</li>
+<li>session proses.php dan index.php</li>
 </ol>
