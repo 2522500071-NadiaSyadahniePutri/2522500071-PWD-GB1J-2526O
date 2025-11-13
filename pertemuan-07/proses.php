@@ -1,5 +1,5 @@
 <?php
- echo $_GET["txtNama"];
+ echo $_POST["txtNama"];
 ?>
 <!DOCTYPE html>
     <html lang="en">
@@ -262,7 +262,7 @@ $IPK = $totalSKS > 0 ? $totalBobot / $totalSKS : 0;
 </section>
             <section id="contact">
                 <h2>Kontak Saya</h2>
-                <form action="proses.php" method="GET">
+                <form action="" method="GET">
                     <label for="txtNama"><span>Nama:</span>
                         <input type="text" id="txtNama" name="txtNama" placeholder="Masukkan nama lengkap" required
                             autocomplete="name">
