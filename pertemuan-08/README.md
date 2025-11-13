@@ -10,4 +10,5 @@ Proses saya mengerjakan UTS ini sebagai berikut:<br>
 <ol>
   <li>menambah section baru berjudul Biodata Sederhana Mahasiswa</li>
   <li>membuat input nim, nama, tanggal lahir, dll</li>
+  <li>membuat tombol kirim dan batal</li>
 </ol>
