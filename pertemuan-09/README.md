@@ -12,5 +12,5 @@
   <li>echo session ke nilai label section contact</li>
   <li>echo session ke nilai label section contact selesai</li>
   <li>mengubah data post ke array associative<li>
-  kkkk
+  kkkklllll
 </ol>
