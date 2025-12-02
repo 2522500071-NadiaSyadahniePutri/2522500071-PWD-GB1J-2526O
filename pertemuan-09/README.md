@@ -14,4 +14,6 @@
   <li>mengubah data post ke array associative<li>
   <li>mengganti baris 23-32 pada proses.php<li>
   <li>menghapus barisan 19-67 dan mengggantikannya dengan fieldconfig biodata pada index.php<li>
+  <li>menambahkan kode php foreach dibawah <h2>tentang saya</h2> pada index.php<li>
+  <li>menghapus p strong pada index.html<li>
 </ol>
