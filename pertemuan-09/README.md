@@ -18,4 +18,5 @@
   <li>menghapus p strong pada index.html<li>
   <li>menambahkan file baru bernama fungsi.php<li>
   <li>menambahkan return date pada fungsi.php<li>
+  <li>menambahkan function tampilkan biodata<li>
 </ol>
