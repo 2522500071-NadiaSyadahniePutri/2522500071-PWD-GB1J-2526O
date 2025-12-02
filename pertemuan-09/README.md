@@ -19,4 +19,5 @@
   <li>menambahkan file baru bernama fungsi.php<li>
   <li>menambahkan return date pada fungsi.php<li>
   <li>menambahkan function tampilkan biodata<li>
+  <li>mengganti kode dibawah tentang saya pada index.php<li>
 </ol>
