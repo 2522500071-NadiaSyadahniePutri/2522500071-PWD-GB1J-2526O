@@ -17,4 +17,5 @@
   <li>menambahkan kode php foreach dibawah <h2>tentang saya</h2> pada index.php<li>
   <li>menghapus p strong pada index.html<li>
   <li>menambahkan file baru bernama fungsi.php<li>
+  <li>menambahkan return date pada fungsi.php<li>
 </ol>
