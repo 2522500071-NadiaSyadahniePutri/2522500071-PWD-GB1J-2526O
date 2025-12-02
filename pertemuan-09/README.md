@@ -13,4 +13,5 @@
   <li>echo session ke nilai label section contact selesai</li>
   <li>mengubah data post ke array associative<li>
   <li>mengganti baris 23-32 pada proses.php<li>
+  <li>menghapus barisan 19-67 dan mengggantikannya dengan fieldconfig biodata pada index.php<li>
 </ol>
