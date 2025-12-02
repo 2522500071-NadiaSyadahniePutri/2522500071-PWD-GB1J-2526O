@@ -20,4 +20,5 @@
   <li>menambahkan return date pada fungsi.php<li>
   <li>menambahkan function tampilkan biodata<li>
   <li>mengganti kode dibawah tentang saya pada index.php<li>
+  <li>menambahkan kode require pada index.php<li>
 </ol>
