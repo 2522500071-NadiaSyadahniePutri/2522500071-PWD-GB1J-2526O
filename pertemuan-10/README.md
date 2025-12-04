@@ -7,3 +7,4 @@ hari ini kamis 4 desember 2025
     <li>membuat database di local host php my admin<li>
     <li>membuat tbl_tamu didalam database db_pwd2025<li>
     <li>membuat file baru berjudul read.php<li>
+    <li>melakukan pengisian data untuk tabel tbl_tamu<li>
