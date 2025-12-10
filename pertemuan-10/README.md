@@ -10,4 +10,5 @@ hari ini kamis 4 desember 2025
     <li>melakukan pengisian data untuk tabel tbl_tamu<li>
     <li>menambahkan file read_inc.php dan menambahkan kode<li>
     <li>mengubah kode ke 146 di index.php<li>
+    <li>menghapus kode 133-141 pada index.php<li>
 <ol>
