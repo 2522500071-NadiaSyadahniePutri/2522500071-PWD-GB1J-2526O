@@ -4,4 +4,5 @@ hari ini kamis, 11 desember 2025
 <ol>
     <li>mengupdate kode fungsi.php<li>
     <li>menambah penangkap pesan sukses/gagal pada index.php<li>
+    <li>menambahkan flash messege di index.php<li>
 <ol>
