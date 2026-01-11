@@ -50,7 +50,7 @@ unset($_SESSION['flash_sukses'], $_SESSION['flash_error']);
     <td><?= htmlspecialchars($row['cnama']); ?></td>
     <td><?= htmlspecialchars($row['cemail']); ?></td>
     <td><?= htmlspecialchars($row['cpesan']); ?></td>
-    <td><?= formatTanggal(htmlspecialchars($row['dcreated_at'])); ?></td>
+    <td><?= formatTanggal(htmlspecialchars($row['created_at'])); ?></td>
 </tr>
 <?php endwhile; ?>
 </table>
