@@ -69,7 +69,7 @@
       <td><?= htmlspecialchars($row['Nama_Ortu']); ?></td>
       <td><?= htmlspecialchars($row['Nama_Kakak']); ?></td>
       <td><?= htmlspecialchars($row['Nama_Adik']); ?></td>
-      <td><?= formatTanggal(htmlspecialchars($row['created_at'])); ?></td>
+      <td><?= formatTanggal(htmlspecialchars($row['create_at'])); ?></td>
     </tr>
   <?php endwhile; ?>
 </table>
