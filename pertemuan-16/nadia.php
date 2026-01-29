@@ -22,7 +22,7 @@ $result = $conn->query($sql);
       <td><?= htmlspecialchars($row['nama']); ?></td>
       <td><?= htmlspecialchars($row['jabatan']); ?></td>
       <td>
-        <a href="edit.php?id=<?= $row['id']; ?>">Edit</a> |
+        <a href="edit_biodata.php?id=<?= $row['id']; ?>">Edit</a> |
         <a href="proses_delete.php?id=<?= $row['id']; ?>"
            onclick="return confirm('Yakin hapus data ini?')">
            Delete

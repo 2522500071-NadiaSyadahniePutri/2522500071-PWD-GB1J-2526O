@@ -4,7 +4,11 @@ hari ini mingggu, 8 januari 2026
 <br>Nama: Nadia Syadahnie Putri</br>
 <ol>
     <li>mendownload file bahan UAS<li>
-    <li>membuat tabel bafu di phpmyadmin<li>
+    <li>membuat tabel baru di phpmyadmin<li>
     <li>menambahkan file baru yaitu proses_simpan.php<li>
-    <li>membuat file baru yaitu nadia.php untuk membaca phpmyadmin<li>
+    <li>menambahkan file baru yaitu nadia.php untuk membaca phpmyadmin<li>
+    <li>menambahkan file baru yaitu edit_biodata.php<li>
+    <li>menambahkan file baru yaitu proses_delete_biodata.php<li>
+    <li>menambahkan file baru yaitu proses_update_biodata.php<li>
+
 <ol>

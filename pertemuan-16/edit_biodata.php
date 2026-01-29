@@ -17,7 +17,7 @@ if (!$data) {
 
 <h2>Edit Biodata Anggota</h2>
 
-<form action="proses_update.php" method="POST">
+<form action="proses_update_biodata.php" method="POST">
   <input type="hidden" name="id" value="<?= $data['id']; ?>">
 
   <label>
