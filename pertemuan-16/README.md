@@ -10,5 +10,9 @@ hari ini mingggu, 8 januari 2026
     <li>menambahkan file baru yaitu edit_biodata.php<li>
     <li>menambahkan file baru yaitu proses_delete_biodata.php<li>
     <li>menambahkan file baru yaitu proses_update_biodata.php<li>
+    <li>membuat isi kodingan pada file edit_biodata.php agar bisa diedit<li>
+    <li>membuat isi codingan pada file nadia.php agar bisa dilihat<li>
+    <li>membuat isi codingan pada file proses_delete_biodata.php agar bisa menghapus data<li>
+    <li>membuat isi codingan pada file proses_update_biodata.php agar ketika di edit bisa diproses<li>
 
 <ol>
