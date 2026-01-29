@@ -4,4 +4,5 @@ hari ini mingggu, 8 januari 2026
 <br>Nama: Nadia Syadahnie Putri</br>
 <ol>
     <li>mendownload file bahan UAS<li>
+    <li>membuat tabel bafu di phpmyadmin<li>
 <ol>
