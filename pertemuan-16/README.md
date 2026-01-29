@@ -5,4 +5,5 @@ hari ini mingggu, 8 januari 2026
 <ol>
     <li>mendownload file bahan UAS<li>
     <li>membuat tabel bafu di phpmyadmin<li>
+    <li>menambahkan file baru yaitu proses_simpan.php<li>
 <ol>
