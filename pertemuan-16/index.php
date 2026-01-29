@@ -40,6 +40,9 @@ require_once __DIR__ . '/fungsi.php';
 
     <section id="anggota">
       <h2>Data Anggota</h2>
+      <h2>Data Anggota</h2>
+      <?php include 'nadia.php'; ?>
+
       <form action="proses_anggota.php" method="POST">
 
         <label for="txtNoAng"><span>Nomor Anggota:</span>

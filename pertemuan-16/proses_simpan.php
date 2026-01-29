@@ -1,31 +1,46 @@
 <?php
+session_start();
 require_once 'koneksi.php';
 require_once 'fungsi.php';
 
-if (isset($_POST['kirim'])) {
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
-    $nim   = bersihkan($_POST['nim'] ?? '');
-    $nama  = bersihkan($_POST['nama'] ?? '');
-    $alamat = bersihkan($_POST['alamat'] ?? '');
-    $jk    = bersihkan($_POST['jenis_kelamin'] ?? '');
+    $noang    = bersihkan($_POST['txtNoAng'] ?? '');
+    $nama     = bersihkan($_POST['txtNmAng'] ?? '');
+    $jabatan  = bersihkan($_POST['txtJabAng'] ?? '');
+    $tgljadi  = bersihkan($_POST['txtTglJadi'] ?? '');
+    $skill    = bersihkan($_POST['txtSkill'] ?? '');
+    $gaji     = bersihkan($_POST['txtGaji'] ?? '');
+    $nowa     = bersihkan($_POST['txtNoWA'] ?? '');
+    $batalion = bersihkan($_POST['txBatalion'] ?? '');
+    $bb       = bersihkan($_POST['txtBB'] ?? '');
+    $tb       = bersihkan($_POST['txtTB'] ?? '');
 
-    // validasi
     if (
-        !tidakKosong($nim) ||
+        !tidakKosong($noang) ||
         !tidakKosong($nama) ||
-        !tidakKosong($alamat) ||
-        !tidakKosong($jk)
+        !tidakKosong($jabatan) ||
+        !tidakKosong($tgljadi) ||
+        !tidakKosong($skill) ||
+        !tidakKosong($gaji) ||
+        !tidakKosong($nowa) ||
+        !tidakKosong($batalion) ||
+        !tidakKosong($bb) ||
+        !tidakKosong($tb)
     ) {
-        redirect_ke('index.php?status=gagal');
+        $_SESSION['flash_error'] = 'Semua data wajib diisi';
+        redirect_ke('index.php#anggota');
     }
 
-    // insert
-    $sql = "INSERT INTO anggota (nim, nama, alamat, jenis_kelamin)
-            VALUES ('$nim', '$nama', '$alamat', '$jk')";
+    mysqli_query(
+        $koneksi,
+        "INSERT INTO uas_pwd
+        (no_anggota, nama_anggota, jabatan, tanggal_jadi, skill, gaji, no_wa, batalion, berat_badan, tinggi_badan)
+        VALUES
+        ('$noang','$nama','$jabatan','$tgljadi','$skill','$gaji','$nowa','$batalion','$bb','$tb')"
+    );
 
-    if (mysqli_query($koneksi, $sql)) {
-        redirect_ke('read_mahasiswa.php?status=sukses');
-    } else {
-        redirect_ke('index.php?status=gagal');
-    }
+    // PRG
+    $_SESSION['flash_sukses'] = 'Data anggota berhasil disimpan';
+    redirect_ke('index.php#anggota');
 }

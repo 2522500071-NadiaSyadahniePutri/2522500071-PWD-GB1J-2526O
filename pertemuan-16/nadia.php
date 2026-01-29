@@ -1,29 +1,33 @@
 <?php
 require_once 'koneksi.php';
 
-$query = mysqli_query($koneksi, "SELECT * FROM anggota ORDER BY id DESC");
+$sql = "SELECT * FROM uas_pwd ORDER BY id DESC";
+$result = $conn->query($sql);
 ?>
 
-<table border="1">
-<tr>
-    <th>NIM</th>
+<table border="1" width="100%" cellpadding="8" cellspacing="0">
+  <tr>
+    <th>No</th>
+    <th>No Anggota</th>
     <th>Nama</th>
-    <th>Alamat</th>
-    <th>JK</th>
+    <th>Jabatan</th>
     <th>Aksi</th>
-</tr>
+  </tr>
 
-<?php while ($row = mysqli_fetch_assoc($query)) { ?>
-<tr>
-    <td><?= $row['nim']; ?></td>
-    <td><?= $row['nama']; ?></td>
-    <td><?= $row['alamat']; ?></td>
-    <td><?= $row['jenis_kelamin']; ?></td>
-    <td>
-        <a href="edit_mahasiswa.php?id=<?= $row['id']; ?>">Edit</a>
+  <?php $no = 1; ?>
+  <?php while ($row = $result->fetch_assoc()): ?>
+    <tr>
+      <td><?= $no++; ?></td>
+      <td><?= htmlspecialchars($row['no_anggota']); ?></td>
+      <td><?= htmlspecialchars($row['nama']); ?></td>
+      <td><?= htmlspecialchars($row['jabatan']); ?></td>
+      <td>
+        <a href="edit.php?id=<?= $row['id']; ?>">Edit</a> |
         <a href="proses_delete.php?id=<?= $row['id']; ?>"
-           onclick="return confirm('Hapus data?')">Hapus</a>
-    </td>
-</tr>
-<?php } ?>
+           onclick="return confirm('Yakin hapus data ini?')">
+           Delete
+        </a>
+      </td>
+    </tr>
+  <?php endwhile; ?>
 </table>
